@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Jinqian Chen</title>
+    <link>https://J1nqianChen.github.io/publication.html</link>
+      <atom:link href="https://J1nqianChen.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://J1nqianChen.github.io/publication.html</link>
+    </image>
+    
+    <item>
+      <title>Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor</title>
+      <link>https://J1nqianChen.github.io/publication/2023-fedka.html</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://J1nqianChen.github.io/publication/2023-fedka.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
