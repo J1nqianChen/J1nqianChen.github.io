@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks" />
+  <meta name="description" content="Internet of Things (IoT) devices possess valuable but high-risk data in various modalities, calling for the multimodal decentralized machine learning schema. Though several multimodal federated learning (MFL) methods have been proposed, most of them naively overlook the system heterogeneity across IoT devices, resulting in the inadaptability to real world applications. Aiming at this, we conduct extensive experiments in real world scenarios and uncover the significant fact that stragglers caused by system heterogeneity is fatal to MFL, resulting in the catastrophic time overhead. Motivated by this, we propose a novel Multimodal Federated Learning with Accelerated Knowledge Distillation (MFL-AKD) framework, which is the first attempt to integrate knowledge distillation to combat stragglers in complex multimodal federated scenarios. Concretely, given the pretrained large-scale vision-language models deployed in the central server, we apply a quick knowledge transfer strategy before full batch updating in all clients. Extensive evaluations have been conducted on two datasets for video moment retrieval and two datasets for text-image retrieval, and the results demonstrate that our proposed framework achieves significant time gain while maintaining high accuracy." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://J1nqianChen.github.io/publication/2023-fedka.html" />
+  <link rel="alternate" hreflang="en-us" href="https://J1nqianChen.github.io/publication/2024-mflakd.html" />
 
   
   
@@ -322,7 +322,7 @@
   <link rel="icon" type="image/png" href="../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://J1nqianChen.github.io/publication/2023-fedka.html" />
+  <link rel="canonical" href="https://J1nqianChen.github.io/publication/2024-mflakd.html" />
 
   
   
@@ -348,18 +348,18 @@
     <meta property="twitter:creator" content="@Jinqian Chen" />
   
   <meta property="og:site_name" content="Jinqian Chen" />
-  <meta property="og:url" content="https://J1nqianChen.github.io/publication/2023-fedka.html" />
-  <meta property="og:title" content="Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor | Jinqian Chen" />
-  <meta property="og:description" content="Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks" /><meta property="og:image" content="https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://J1nqianChen.github.io/publication/2024-mflakd.html" />
+  <meta property="og:title" content="Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning via Knowledge Distillation | Jinqian Chen" />
+  <meta property="og:description" content="Internet of Things (IoT) devices possess valuable but high-risk data in various modalities, calling for the multimodal decentralized machine learning schema. Though several multimodal federated learning (MFL) methods have been proposed, most of them naively overlook the system heterogeneity across IoT devices, resulting in the inadaptability to real world applications. Aiming at this, we conduct extensive experiments in real world scenarios and uncover the significant fact that stragglers caused by system heterogeneity is fatal to MFL, resulting in the catastrophic time overhead. Motivated by this, we propose a novel Multimodal Federated Learning with Accelerated Knowledge Distillation (MFL-AKD) framework, which is the first attempt to integrate knowledge distillation to combat stragglers in complex multimodal federated scenarios. Concretely, given the pretrained large-scale vision-language models deployed in the central server, we apply a quick knowledge transfer strategy before full batch updating in all clients. Extensive evaluations have been conducted on two datasets for video moment retrieval and two datasets for text-image retrieval, and the results demonstrate that our proposed framework achieves significant time gain while maintaining high accuracy." /><meta property="og:image" content="https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2023-07-26T00:00:00&#43;00:00"
+        content="2024-05-26T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-07-26T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-05-26T00:00:00&#43;00:00">
   
 
   
@@ -381,12 +381,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://J1nqianChen.github.io/publication/2023-fedka.html"
+    "@id": "https://J1nqianChen.github.io/publication/2024-mflakd.html"
   },
-  "headline": "Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor",
+  "headline": "Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning via Knowledge Distillation",
   
-  "datePublished": "2023-07-26T00:00:00Z",
-  "dateModified": "2023-07-26T00:00:00Z",
+  "datePublished": "2024-05-26T00:00:00Z",
+  "dateModified": "2024-05-26T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -401,7 +401,7 @@
       "url": "https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks"
+  "description": "Internet of Things (IoT) devices possess valuable but high-risk data in various modalities, calling for the multimodal decentralized machine learning schema. Though several multimodal federated learning (MFL) methods have been proposed, most of them naively overlook the system heterogeneity across IoT devices, resulting in the inadaptability to real world applications. Aiming at this, we conduct extensive experiments in real world scenarios and uncover the significant fact that stragglers caused by system heterogeneity is fatal to MFL, resulting in the catastrophic time overhead. Motivated by this, we propose a novel Multimodal Federated Learning with Accelerated Knowledge Distillation (MFL-AKD) framework, which is the first attempt to integrate knowledge distillation to combat stragglers in complex multimodal federated scenarios. Concretely, given the pretrained large-scale vision-language models deployed in the central server, we apply a quick knowledge transfer strategy before full batch updating in all clients. Extensive evaluations have been conducted on two datasets for video moment retrieval and two datasets for text-image retrieval, and the results demonstrate that our proposed framework achieves significant time gain while maintaining high accuracy."
 }
 </script>
 
@@ -412,7 +412,7 @@
   
 
 
-  <title>Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor | Jinqian Chen</title>
+  <title>Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning via Knowledge Distillation | Jinqian Chen</title>
 
   
   
@@ -432,7 +432,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3e379a408368d32eaa199175f2f86752" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="fdbb5073640f1d04b5fbb487f9c7a66d" >
 
   
   
@@ -738,7 +738,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor</h1>
+  <h1>Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning via Knowledge Distillation</h1>
 
   
 
@@ -758,8 +758,13 @@
 
   <span >
       <strong>Jinqian Chen</strong></span>, <span >
-      Jihua Zhu</span>, <span >
-      Qinghai Zheng</span>
+      Haoyu Tang</span>, <span >
+      Junhao Cheng</span>, <span >
+      Ming Yan</span>, <span >
+      Ji Zhang</span>, <span >
+      Mingzhu Xu</span>, <span >
+      Yupeng Hu</span>, <span >
+      Liqiang Nie</span>
   </div>
   
   
@@ -770,7 +775,7 @@
     
       
     
-  Posted July, 2023 
+  Posted May, 2024 
   </span>
   
   <span class="article-date">
@@ -841,37 +846,8 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3581783.3612597" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2402.16255" target="_blank" rel="noopener">
     <i class="fas fa-scroll mr-1"></i>Link</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="../files/FedKA.pdf" >
-    <i class="fas fa-scroll mr-1"></i>Pdf</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/J1nqianChen/FedKA" target="_blank" rel="noopener">
-    <i class="ai ai-open-data mr-1"></i>Code</a>
 
 
 </div>
@@ -886,7 +862,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks</p>
+    <p class="pub-abstract">Internet of Things (IoT) devices possess valuable but high-risk data in various modalities, calling for the multimodal decentralized machine learning schema. Though several multimodal federated learning (MFL) methods have been proposed, most of them naively overlook the system heterogeneity across IoT devices, resulting in the inadaptability to real world applications. Aiming at this, we conduct extensive experiments in real world scenarios and uncover the significant fact that stragglers caused by system heterogeneity is fatal to MFL, resulting in the catastrophic time overhead. Motivated by this, we propose a novel Multimodal Federated Learning with Accelerated Knowledge Distillation (MFL-AKD) framework, which is the first attempt to integrate knowledge distillation to combat stragglers in complex multimodal federated scenarios. Concretely, given the pretrained large-scale vision-language models deployed in the central server, we apply a quick knowledge transfer strategy before full batch updating in all clients. Extensive evaluations have been conducted on two datasets for video moment retrieval and two datasets for text-image retrieval, and the results demonstrate that our proposed framework achieves significant time gain while maintaining high accuracy.</p>
     
 
     
@@ -914,7 +890,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Proceedings of the 31st ACM International Conference on Multimedia. 2023</div>
+          <div class="col-12 col-md-9">The 33rd International Joint Conference on Artificial Intelligence (IJCAI-24)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -961,6 +937,36 @@ $(document).ready(function () {
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 

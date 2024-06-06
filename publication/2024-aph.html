@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks" />
+  <meta name="description" content="Federated learning encounters substantial challenges with heterogeneous data, leading to performance degradation and convergence issues. While considerable progress has been achieved in mitigating such an impact, the reliability aspect of federated models has been largely disregarded. In this study, we conduct extensive experiments to investigate the reliability of both generic and personalized federated models. Our exploration uncovers a significant finding: federated models exhibit unreliability when faced with heterogeneous data, demonstrating poor calibration on in-distribution test data and low uncertainty levels on out-of-distribution data. This unreliability is primarily attributed to the presence of biased projection heads, which introduce miscalibration into the federated models. Inspired by this observation, we propose the Assembled Projection Heads (APH) method for enhancing the reliability of federated models. By treating the existing projection head parameters as priors, APH randomly samples multiple initialized parameters of projection heads from the prior and further performs targeted fine-tuning on locally available data under varying learning rates. Such a head ensemble introduces parameter diversity into the deterministic model, eliminating the bias and producing reliable predictions via head averaging. We evaluate the effectiveness of the proposed APH method across three prominent federated benchmarks. Experimental results validate the efficacy of APH in model calibration and uncertainty estimation. Notably, APH can be seamlessly integrated into various federated approaches but only requires less than 30% additional computation cost for 100× inferences within large models." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://J1nqianChen.github.io/publication/2023-fedka.html" />
+  <link rel="alternate" hreflang="en-us" href="https://J1nqianChen.github.io/publication/2024-aph.html" />
 
   
   
@@ -322,7 +322,7 @@
   <link rel="icon" type="image/png" href="../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://J1nqianChen.github.io/publication/2023-fedka.html" />
+  <link rel="canonical" href="https://J1nqianChen.github.io/publication/2024-aph.html" />
 
   
   
@@ -348,18 +348,18 @@
     <meta property="twitter:creator" content="@Jinqian Chen" />
   
   <meta property="og:site_name" content="Jinqian Chen" />
-  <meta property="og:url" content="https://J1nqianChen.github.io/publication/2023-fedka.html" />
-  <meta property="og:title" content="Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor | Jinqian Chen" />
-  <meta property="og:description" content="Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks" /><meta property="og:image" content="https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://J1nqianChen.github.io/publication/2024-aph.html" />
+  <meta property="og:title" content="Watch Your Head: Assembling Projection Heads to Save the Reliability of Federated Models | Jinqian Chen" />
+  <meta property="og:description" content="Federated learning encounters substantial challenges with heterogeneous data, leading to performance degradation and convergence issues. While considerable progress has been achieved in mitigating such an impact, the reliability aspect of federated models has been largely disregarded. In this study, we conduct extensive experiments to investigate the reliability of both generic and personalized federated models. Our exploration uncovers a significant finding: federated models exhibit unreliability when faced with heterogeneous data, demonstrating poor calibration on in-distribution test data and low uncertainty levels on out-of-distribution data. This unreliability is primarily attributed to the presence of biased projection heads, which introduce miscalibration into the federated models. Inspired by this observation, we propose the Assembled Projection Heads (APH) method for enhancing the reliability of federated models. By treating the existing projection head parameters as priors, APH randomly samples multiple initialized parameters of projection heads from the prior and further performs targeted fine-tuning on locally available data under varying learning rates. Such a head ensemble introduces parameter diversity into the deterministic model, eliminating the bias and producing reliable predictions via head averaging. We evaluate the effectiveness of the proposed APH method across three prominent federated benchmarks. Experimental results validate the efficacy of APH in model calibration and uncertainty estimation. Notably, APH can be seamlessly integrated into various federated approaches but only requires less than 30% additional computation cost for 100× inferences within large models." /><meta property="og:image" content="https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2023-07-26T00:00:00&#43;00:00"
+        content="2024-01-26T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-07-26T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-01-26T00:00:00&#43;00:00">
   
 
   
@@ -381,12 +381,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://J1nqianChen.github.io/publication/2023-fedka.html"
+    "@id": "https://J1nqianChen.github.io/publication/2024-aph.html"
   },
-  "headline": "Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor",
+  "headline": "Watch Your Head: Assembling Projection Heads to Save the Reliability of Federated Models",
   
-  "datePublished": "2023-07-26T00:00:00Z",
-  "dateModified": "2023-07-26T00:00:00Z",
+  "datePublished": "2024-01-26T00:00:00Z",
+  "dateModified": "2024-01-26T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -401,7 +401,7 @@
       "url": "https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks"
+  "description": "Federated learning encounters substantial challenges with heterogeneous data, leading to performance degradation and convergence issues. While considerable progress has been achieved in mitigating such an impact, the reliability aspect of federated models has been largely disregarded. In this study, we conduct extensive experiments to investigate the reliability of both generic and personalized federated models. Our exploration uncovers a significant finding: federated models exhibit unreliability when faced with heterogeneous data, demonstrating poor calibration on in-distribution test data and low uncertainty levels on out-of-distribution data. This unreliability is primarily attributed to the presence of biased projection heads, which introduce miscalibration into the federated models. Inspired by this observation, we propose the Assembled Projection Heads (APH) method for enhancing the reliability of federated models. By treating the existing projection head parameters as priors, APH randomly samples multiple initialized parameters of projection heads from the prior and further performs targeted fine-tuning on locally available data under varying learning rates. Such a head ensemble introduces parameter diversity into the deterministic model, eliminating the bias and producing reliable predictions via head averaging. We evaluate the effectiveness of the proposed APH method across three prominent federated benchmarks. Experimental results validate the efficacy of APH in model calibration and uncertainty estimation. Notably, APH can be seamlessly integrated into various federated approaches but only requires less than 30% additional computation cost for 100× inferences within large models."
 }
 </script>
 
@@ -412,7 +412,7 @@
   
 
 
-  <title>Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor | Jinqian Chen</title>
+  <title>Watch Your Head: Assembling Projection Heads to Save the Reliability of Federated Models | Jinqian Chen</title>
 
   
   
@@ -432,7 +432,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3e379a408368d32eaa199175f2f86752" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="18c83c10b03ac4169e3b07d65e190943" >
 
   
   
@@ -738,7 +738,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor</h1>
+  <h1>Watch Your Head: Assembling Projection Heads to Save the Reliability of Federated Models</h1>
 
   
 
@@ -759,7 +759,9 @@
   <span >
       <strong>Jinqian Chen</strong></span>, <span >
       Jihua Zhu</span>, <span >
-      Qinghai Zheng</span>
+      Qinghai Zheng</span>, <span >
+      Zhiqiang Tian</span>, <span >
+      Zhongyu Li</span>
   </div>
   
   
@@ -770,7 +772,7 @@
     
       
     
-  Posted July, 2023 
+  Posted January, 2024 
   </span>
   
   <span class="article-date">
@@ -841,37 +843,8 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3581783.3612597" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2402.16255v1" target="_blank" rel="noopener">
     <i class="fas fa-scroll mr-1"></i>Link</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="../files/FedKA.pdf" >
-    <i class="fas fa-scroll mr-1"></i>Pdf</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/J1nqianChen/FedKA" target="_blank" rel="noopener">
-    <i class="ai ai-open-data mr-1"></i>Code</a>
 
 
 </div>
@@ -886,7 +859,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Federated learning encounters a critical challenge of data heterogeneity, adversely affecting the performance and convergence of the federated model. Various approaches have been proposed to address this issue, yet their effectiveness is still limited. Recent studies have revealed that the federated model suffers severe forgetting in local training, leading to global forgetting and performance degradation. Although the analysis provides valuable insights, a comprehensive understanding of the vulnerable classes and their impact factors is yet to be established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting degree of each class during local training across different communication rounds. Our observations are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local training, while dominant classes show improvement in performance. (2) When dynamically reducing the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion of its samples is below a certain threshold, indicating that the local model struggles to leverage a few samples of a specific class effectively to prevent forgetting. Motivated by these findings, we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA). Assuming that all clients have a single shared sample for each class, the knowledge anchor is constructed before each local training stage by extracting shared samples for missing classes and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is then utilized to correct the gradient of each mini-batch towards the direction of preserving the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy on popular benchmarks</p>
+    <p class="pub-abstract">Federated learning encounters substantial challenges with heterogeneous data, leading to performance degradation and convergence issues. While considerable progress has been achieved in mitigating such an impact, the reliability aspect of federated models has been largely disregarded. In this study, we conduct extensive experiments to investigate the reliability of both generic and personalized federated models. Our exploration uncovers a significant finding: federated models exhibit unreliability when faced with heterogeneous data, demonstrating poor calibration on in-distribution test data and low uncertainty levels on out-of-distribution data. This unreliability is primarily attributed to the presence of biased projection heads, which introduce miscalibration into the federated models. Inspired by this observation, we propose the Assembled Projection Heads (APH) method for enhancing the reliability of federated models. By treating the existing projection head parameters as priors, APH randomly samples multiple initialized parameters of projection heads from the prior and further performs targeted fine-tuning on locally available data under varying learning rates. Such a head ensemble introduces parameter diversity into the deterministic model, eliminating the bias and producing reliable predictions via head averaging. We evaluate the effectiveness of the proposed APH method across three prominent federated benchmarks. Experimental results validate the efficacy of APH in model calibration and uncertainty estimation. Notably, APH can be seamlessly integrated into various federated approaches but only requires less than 30% additional computation cost for 100× inferences within large models.</p>
     
 
     
@@ -914,7 +887,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Proceedings of the 31st ACM International Conference on Multimedia. 2023</div>
+          <div class="col-12 col-md-9">The 35th AAAI Conference on Artificial Intelligence(AAAI), 2024</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -961,6 +934,18 @@ $(document).ready(function () {
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 

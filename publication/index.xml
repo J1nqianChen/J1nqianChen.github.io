@@ -5,12 +5,28 @@
     <link>https://J1nqianChen.github.io/publication.html</link>
       <atom:link href="https://J1nqianChen.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://J1nqianChen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://J1nqianChen.github.io/publication.html</link>
     </image>
+    
+    <item>
+      <title>Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning via Knowledge Distillation</title>
+      <link>https://J1nqianChen.github.io/publication/2024-mflakd.html</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://J1nqianChen.github.io/publication/2024-mflakd.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Watch Your Head: Assembling Projection Heads to Save the Reliability of Federated Models</title>
+      <link>https://J1nqianChen.github.io/publication/2024-aph.html</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://J1nqianChen.github.io/publication/2024-aph.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor</title>
