@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title | escape }} | {{ site.affiliation | escape }}</title>
+    <meta name="description" content="{{ site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/font.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img class="image avatar" src="{{ site.avatar | relative_url }}" width="270" height="270" alt="Portrait of {{ site.title | escape }}">
+        <h1>{{ site.title }}</h1>
+        <p class="profile-details">
+          {{ site.position }}<br>
+          <a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a><br>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+
+        <div class="social-icons">
+          <a href="{{ site.google_scholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a href="{{ site.github_link }}" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="{{ site.orcid }}" aria-label="ORCID" title="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+          <a href="{{ site.twitter }}" aria-label="X / Twitter" title="X / Twitter"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+        </div>
+
+        <nav class="section-nav" aria-label="On this page">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#preprints">Preprints</a>
+        </nav>
+      </header>
+      <main>
+        <section aria-label="Academic profile">
+          {{ content }}
+          <p class="theme-credit"><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a>.</small></p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

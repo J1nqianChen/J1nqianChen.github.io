@@ -1,3 +1,2 @@
 User-agent: *
-
-Sitemap: https://J1nqianChen.github.io/sitemap.xml
+Sitemap: https://j1nqianchen.github.io/sitemap.xml

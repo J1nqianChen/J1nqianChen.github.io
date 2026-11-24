@@ -1,0 +1,38 @@
+<div class="publications">
+  <ol class="bibliography">
+    {% for paper in include.entries %}
+    <li id="{{ paper.id }}" class="publication">
+      <div class="pub-row">
+        <div class="abbr no-teaser">
+          <span class="badge">{{ paper.short }}</span>
+        </div>
+        <div class="publication-info">
+          <div class="title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
+          <div class="author">
+            {% for author in paper.authors %}{% if author == site.title %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+          </div>
+          <div class="periodical"><em>{{ paper.venue | escape }}</em>{% if paper.note %} · {{ paper.note | escape }}{% endif %}</div>
+          {% if paper.pdf or paper.code %}
+          <div class="links">
+            {% if paper.pdf %}
+              {% assign pdf_url = paper.pdf %}
+              {% unless pdf_url contains '://' %}{% assign pdf_url = pdf_url | relative_url %}{% endunless %}
+              <a href="{{ pdf_url | escape }}" class="btn" aria-label="PDF of {{ paper.title | escape }}">PDF</a>
+            {% endif %}
+            {% if paper.code %}
+              <a href="{{ paper.code | escape }}" class="btn" aria-label="Code for {{ paper.title | escape }}">Code</a>
+            {% endif %}
+          </div>
+          {% endif %}
+          {% if paper.abstract %}
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <p>{{ paper.abstract | escape }}</p>
+          </details>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</div>

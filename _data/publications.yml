@@ -1,0 +1,320 @@
+# Add new entries at the top of the relevant list, in reverse chronological order.
+published:
+  - id: mobile-edge
+    title: Calibrating Federated Models for Reliable Mobile Edge Deployment
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+      - Wenbiao Yan
+      - Haozhe Cheng
+      - Haoyu Tang
+      - Qinghai Zheng
+    short: TMC
+    venue: IEEE Transactions on Mobile Computing
+    year: 2026
+    url: https://doi.org/10.1109/TMC.2026.3731388
+    note: December 2026 issue
+  - id: generator-bias
+    title: Mitigating Generator Bias in Low-Participation Model-Heterogeneous Federated Learning
+    authors:
+      - Jinqian Chen
+      - Yiting Zheng
+      - Bohan Lin
+      - Haozhe Cheng
+      - Qinghai Zheng
+      - Jihua Zhu
+    short: TAI
+    venue: IEEE Transactions on Artificial Intelligence
+    year: 2026
+    url: https://doi.org/10.1109/TAI.2026.3712010
+  - id: fedpsa
+    title: 'FedPSA: Modeling behavioral staleness in asynchronous federated learning'
+    authors:
+      - Chaoyi Lu
+      - Yiding Sun
+      - Zhichuan Yang
+      - Jinqian Chen
+      - Dongfu Yin
+      - Jihua Zhu
+    short: ESWA
+    venue: Expert Systems with Applications
+    year: 2026
+    url: https://doi.org/10.1016/j.eswa.2026.133003
+  - id: progressive-consensus
+    title: Partially View-Aligned Multi-View Clustering Based on Progressive Global Consensus Learning
+    authors:
+      - Xiaojin Ren
+      - Jihua Zhu
+      - Wenbiao Yan
+      - Jinqian Chen
+      - Haozhe Cheng
+      - Qinghai Zheng
+    short: TCSVT
+    venue: IEEE Transactions on Circuits and Systems for Video Technology
+    year: 2026
+    url: https://doi.org/10.1109/TCSVT.2026.3720618
+  - id: point-rmae
+    title: 'Point-RMAE: Reinforcement Masked Autoencoder for 3D Representation Learning'
+    authors:
+      - Haozhe Cheng
+      - Lintong Wei
+      - Wenjing Wang
+      - Wenbiao Yan
+      - Jinqian Chen
+      - Jian Lu
+      - Kun Yue
+      - Jihua Zhu
+    short: TIP
+    venue: IEEE Transactions on Image Processing
+    year: 2026
+    url: https://doi.org/10.1109/TIP.2026.3694193
+  - id: pmkc
+    title: Pseudo Multi-view K-means Clustering
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+      - Haoyu Tang
+      - Qinghai Zheng
+    short: AAAI
+    venue: AAAI Conference on Artificial Intelligence
+    year: 2026
+    url: https://doi.org/10.1609/aaai.v40i24.39101
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/download/39101/43063
+  - id: afbs
+    title: 'AFBS: buffer gradient selection in semi-asynchronous federated learning'
+    authors:
+      - Chaoyi Lu
+      - Yiding Sun
+      - Jinqian Chen
+      - Zhichuan Yang
+      - Jiangming Pan
+      - Jihua Zhu
+    short: KBS
+    venue: Knowledge-Based Systems
+    year: 2025
+    url: https://doi.org/10.1016/j.knosys.2025.114632
+  - id: graph-variational
+    title: Graph Variational Multi-View Clustering
+    authors:
+      - Wenbiao Yan
+      - Jihua Zhu
+      - Jinqian Chen
+      - Haozhe Cheng
+      - Qinghai Zheng
+    short: TCSVT
+    venue: IEEE Transactions on Circuits and Systems for Video Technology
+    year: 2025
+    url: https://doi.org/10.1109/TCSVT.2025.3571012
+  - id: neighbor-completion
+    title: Neighbor-Based Completion for Addressing Incomplete Multiview Clustering
+    authors:
+      - Wenbiao Yan
+      - Jihua Zhu
+      - Yiyang Zhou
+      - Jinqian Chen
+      - Haozhe Cheng
+      - Kun Yue
+      - Qinghai Zheng
+    short: TNNLS
+    venue: IEEE Transactions on Neural Networks and Learning Systems
+    year: 2025
+    url: https://doi.org/10.1109/TNNLS.2025.3540437
+  - id: label-distribution
+    title: Label distribution-driven multi-view representation learning
+    authors:
+      - Wenbiao Yan
+      - Minghong Wu
+      - Yiyang Zhou
+      - Qinghai Zheng
+      - Jinqian Chen
+      - Haozhe Cheng
+      - Jihua Zhu
+    short: Inf. Fusion
+    venue: Information Fusion
+    year: 2025
+    url: https://doi.org/10.1016/j.inffus.2024.102727
+  - id: multi-view-realignment
+    title: Partially multi-view clustering via re-alignment
+    authors:
+      - Wenbiao Yan
+      - Jihua Zhu
+      - Jinqian Chen
+      - Haozhe Cheng
+      - Shunshun Bai
+      - Liang Duan
+      - Qinghai Zheng
+    short: Neural Netw.
+    venue: Neural Networks
+    year: 2025
+    url: https://doi.org/10.1016/j.neunet.2024.106884
+  - id: ptm
+    title: 'PTM: Torus Masking for 3D Representation Learning Guided by Robust and Trusted Teachers'
+    authors:
+      - Haozhe Cheng
+      - Jihua Zhu
+      - Naiwen Hu
+      - Jinqian Chen
+      - Wenbiao Yan
+    short: TCSVT
+    venue: IEEE Transactions on Circuits and Systems for Video Technology
+    year: 2024
+    url: https://doi.org/10.1109/TCSVT.2024.3430904
+  - id: mfl-akd
+    title: 'Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning
+      via Knowledge Distillation'
+    authors:
+      - Jinqian Chen
+      - Haoyu Tang
+      - Junhao Cheng
+      - Ming Yan
+      - Ji Zhang
+      - Mingzhu Xu
+      - Yupeng Hu
+      - Liqiang Nie
+    short: IJCAI
+    venue: International Joint Conference on Artificial Intelligence
+    year: 2024
+    url: https://doi.org/10.24963/ijcai.2024/419
+    pdf: https://ijcai.org/proceedings/2024/0419.pdf
+    abstract: Internet of Things (IoT) devices possess valuable but high-risk data in various modalities,
+      calling for the multimodal decentralized machine learning schema. Though several multimodal
+      federated learning (MFL) methods have been proposed, most of them naively overlook the system
+      heterogeneity across IoT devices, resulting in the inadaptability to real world applications.
+      Aiming at this, we conduct extensive experiments in real world scenarios and uncover the significant
+      fact that stragglers caused by system heterogeneity is fatal to MFL, resulting in the catastrophic
+      time overhead. Motivated by this, we propose a novel Multimodal Federated Learning with Accelerated
+      Knowledge Distillation (MFL-AKD) framework, which is the first attempt to integrate knowledge
+      distillation to combat stragglers in complex multimodal federated scenarios. Concretely, given
+      the pretrained large-scale vision-language models deployed in the central server, we apply a
+      quick knowledge transfer strategy before full batch updating in all clients. Extensive evaluations
+      have been conducted on two datasets for video moment retrieval and two datasets for text-image
+      retrieval, and the results demonstrate that our proposed framework achieves significant time
+      gain while maintaining high accuracy.
+  - id: aph
+    title: 'Watch Your Head: Assembling Projection Heads to Save the Reliability of Federated Models'
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+      - Qinghai Zheng
+      - Zhongyu Li
+      - Zhiqiang Tian
+    short: AAAI
+    venue: AAAI Conference on Artificial Intelligence
+    year: 2024
+    url: https://doi.org/10.1609/aaai.v38i10.29012
+    pdf: https://arxiv.org/pdf/2402.16255
+    abstract: 'Federated learning encounters substantial challenges with heterogeneous data, leading
+      to performance degradation and convergence issues. While considerable progress has been achieved
+      in mitigating such an impact, the reliability aspect of federated models has been largely disregarded.
+      In this study, we conduct extensive experiments to investigate the reliability of both generic
+      and personalized federated models. Our exploration uncovers a significant finding: federated
+      models exhibit unreliability when faced with heterogeneous data, demonstrating poor calibration
+      on in-distribution test data and low uncertainty levels on out-of-distribution data. This unreliability
+      is primarily attributed to the presence of biased projection heads, which introduce miscalibration
+      into the federated models. Inspired by this observation, we propose the Assembled Projection
+      Heads (APH) method for enhancing the reliability of federated models. By treating the existing
+      projection head parameters as priors, APH randomly samples multiple initialized parameters of
+      projection heads from the prior and further performs targeted fine-tuning on locally available
+      data under varying learning rates. Such a head ensemble introduces parameter diversity into
+      the deterministic model, eliminating the bias and producing reliable predictions via head averaging.
+      We evaluate the effectiveness of the proposed APH method across three prominent federated benchmarks.
+      Experimental results validate the efficacy of APH in model calibration and uncertainty estimation.
+      Notably, APH can be seamlessly integrated into various federated approaches but only requires
+      less than 30% additional computation cost for 100× inferences within large models.'
+  - id: fedka
+    title: 'Towards Fast and Stable Federated Learning: Confronting Heterogeneity via Knowledge Anchor'
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+      - Qinghai Zheng
+    short: ACM MM
+    venue: ACM International Conference on Multimedia
+    year: 2023
+    url: https://doi.org/10.1145/3581783.3612597
+    pdf: /files/FedKA.pdf
+    code: https://github.com/J1nqianChen/FedKA
+    abstract: 'Federated learning encounters a critical challenge of data heterogeneity, adversely
+      affecting the performance and convergence of the federated model. Various approaches have been
+      proposed to address this issue, yet their effectiveness is still limited. Recent studies have
+      revealed that the federated model suffers severe forgetting in local training, leading to global
+      forgetting and performance degradation. Although the analysis provides valuable insights, a
+      comprehensive understanding of the vulnerable classes and their impact factors is yet to be
+      established. In this paper, we aim to bridge this gap by systematically analyzing the forgetting
+      degree of each class during local training across different communication rounds. Our observations
+      are: (1) Both missing and non-dominant classes suffer similar severe forgetting during local
+      training, while dominant classes show improvement in performance. (2) When dynamically reducing
+      the sample size of a dominant class, catastrophic forgetting occurs abruptly when the proportion
+      of its samples is below a certain threshold, indicating that the local model struggles to leverage
+      a few samples of a specific class effectively to prevent forgetting. Motivated by these findings,
+      we propose a novel and straightforward algorithm called Federated Knowledge Anchor (FedKA).
+      Assuming that all clients have a single shared sample for each class, the knowledge anchor is
+      constructed before each local training stage by extracting shared samples for missing classes
+      and randomly selecting one sample per class for non-dominant classes. The knowledge anchor is
+      then utilized to correct the gradient of each mini-batch towards the direction of preserving
+      the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate
+      that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy
+      on popular benchmarks'
+  - id: hierarchical-kmeans
+    title: Hierarchical K-means clustering for registration of multi-view point sets
+    authors:
+      - Rui Guo
+      - Jinqian Chen
+      - Lin Wang
+    short: CAEE
+    venue: Computers & Electrical Engineering
+    year: 2021
+    url: https://doi.org/10.1016/j.compeleceng.2021.107321
+preprints:
+  - id: same-rank
+    title: 'Same Rank, Different Needs: Rethinking LoRA Redistribution in Federated Learning'
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+      - Chang Liu
+    short: arXiv
+    venue: arXiv:2611.23742 (Nov. 2026)
+    url: https://arxiv.org/abs/2611.23742
+    pdf: https://arxiv.org/pdf/2611.23742
+  - id: fedtops
+    title: 'Trapped by Their Own Rollouts: Understanding Aggregation–Rollout Feedback in Federated
+      On-Policy Distillation'
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+      - Chang Liu
+    short: arXiv
+    venue: arXiv:2609.32573 (Sept. 2026)
+    url: https://arxiv.org/abs/2609.32573
+    pdf: https://arxiv.org/pdf/2609.32573
+  - id: glora
+    title: 'Beyond Factor Aggregation: Gauge-Aware Low-Rank Server Representations for Federated LoRA'
+    authors:
+      - Jinqian Chen
+      - Chang Liu
+      - Jihua Zhu
+    short: arXiv
+    venue: arXiv:2605.06733 (May 2026)
+    url: https://arxiv.org/abs/2605.06733
+    pdf: https://arxiv.org/pdf/2605.06733
+  - id: hfedckd
+    title: 'HFedCKD: Toward Robust Heterogeneous Federated Learning via Data-free Knowledge Distillation
+      and Two-way Contrast'
+    authors:
+      - Yiting Zheng
+      - Bohan Lin
+      - Jinqian Chen
+      - Jihua Zhu
+    short: arXiv
+    venue: arXiv:2503.06511 (Mar. 2025)
+    url: https://arxiv.org/abs/2503.06511
+    pdf: https://arxiv.org/pdf/2503.06511
+  - id: tpfl
+    title: 'TPFL: A Trustworthy Personalized Federated Learning Framework via Subjective Logic'
+    authors:
+      - Jinqian Chen
+      - Jihua Zhu
+    short: arXiv
+    venue: arXiv:2410.12316 (Oct. 2024)
+    url: https://arxiv.org/abs/2410.12316
+    pdf: https://arxiv.org/pdf/2410.12316
+    code: https://github.com/J1nqianChen/TPFL
