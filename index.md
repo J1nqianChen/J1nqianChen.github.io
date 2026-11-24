@@ -14,6 +14,7 @@ Federated learning, uncertainty estimation, multimodal learning, and point cloud
 
 - **Nov. 2026** — Posted the preprint [Same Rank, Different Needs](#same-rank).
 - **Nov. 2026** — [Mitigating Generator Bias](#generator-bias) appeared in *IEEE Transactions on Artificial Intelligence*.
+- **Sept. 2026** — [FedReCall](#fedrecall) was accepted to NeurIPS 2026 (co-first author).
 - **Mar. 2026** — [Pseudo Multi-view K-means Clustering](#pmkc) appeared in the AAAI 2026 proceedings.
 - **May 16, 2024** — [MFL-AKD](#mfl-akd) was accepted to IJCAI 2024.
 - **Dec. 19, 2023** — [Watch Your Head](#aph) was accepted to AAAI 2024.

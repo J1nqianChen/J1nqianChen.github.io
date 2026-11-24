@@ -9,9 +9,14 @@
         <div class="publication-info">
           <div class="title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
           <div class="author">
-            {% for author in paper.authors %}{% if author == site.title %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            {% for author in paper.authors -%}
+              {%- if author == site.title -%}<strong>{{ author | escape }}</strong>{%- else -%}{{ author | escape }}{%- endif -%}
+              {%- if paper.equal_contributors contains author -%}<sup>*</sup>{%- endif -%}
+              {%- unless forloop.last %}, {% endunless -%}
+            {% endfor %}
           </div>
           <div class="periodical"><em>{{ paper.venue | escape }}</em>{% if paper.note %} · {{ paper.note | escape }}{% endif %}</div>
+          {% if paper.equal_contributors %}<div class="contribution"><small>* Equal contribution (co-first authors)</small></div>{% endif %}
           {% if paper.pdf or paper.code %}
           <div class="links">
             {% if paper.pdf %}

@@ -1,5 +1,20 @@
 # Add new entries at the top of the relevant list, in reverse chronological order.
 published:
+  - id: fedrecall
+    title: 'FedReCall: Recalling Client-Specific Directions in Federated LoRA Fine-tuning'
+    authors:
+      - Chang Liu
+      - Jinqian Chen
+      - Jihua Zhu
+      - Xiangyang Yang
+    equal_contributors:
+      - Chang Liu
+      - Jinqian Chen
+    short: NeurIPS
+    venue: Conference on Neural Information Processing Systems
+    year: 2026
+    url: https://neurips.cc/virtual/2026/poster/149139
+    note: Accepted
   - id: mobile-edge
     title: Calibrating Federated Models for Reliable Mobile Edge Deployment
     authors:
@@ -13,7 +28,7 @@ published:
     venue: IEEE Transactions on Mobile Computing
     year: 2026
     url: https://doi.org/10.1109/TMC.2026.3731388
-    note: December 2026 issue
+    note: First author · December 2026 issue
   - id: generator-bias
     title: Mitigating Generator Bias in Low-Participation Model-Heterogeneous Federated Learning
     authors:
@@ -23,6 +38,9 @@ published:
       - Haozhe Cheng
       - Qinghai Zheng
       - Jihua Zhu
+    equal_contributors:
+      - Jinqian Chen
+      - Yiting Zheng
     short: TAI
     venue: IEEE Transactions on Artificial Intelligence
     year: 2026
