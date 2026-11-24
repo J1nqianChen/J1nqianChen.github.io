@@ -12,10 +12,10 @@ Federated learning, uncertainty estimation, multimodal learning, and point cloud
 
 ## News {#news}
 
-- **Nov. 2026** — Posted the preprint [Same Rank, Different Needs](#same-rank).
+- **2026** — [Calibrating Federated Models for Reliable Mobile Edge Deployment](#mobile-edge) was accepted by *IEEE Transactions on Mobile Computing* (first author).
 - **Nov. 2026** — [Mitigating Generator Bias](#generator-bias) appeared in *IEEE Transactions on Artificial Intelligence*.
 - **Sept. 2026** — [FedReCall](#fedrecall) was accepted to NeurIPS 2026 (co-first author).
-- **Mar. 2026** — [Pseudo Multi-view K-means Clustering](#pmkc) appeared in the AAAI 2026 proceedings.
+- **Mar. 2026** — [Pseudo Multi-view K-means Clustering](https://doi.org/10.1609/aaai.v40i24.39101) appeared in the AAAI 2026 proceedings.
 - **May 16, 2024** — [MFL-AKD](#mfl-akd) was accepted to IJCAI 2024.
 - **Dec. 19, 2023** — [Watch Your Head](#aph) was accepted to AAAI 2024.
 - **Jul. 26, 2023** — [FedKA](#fedka) was accepted to ACM Multimedia 2023.

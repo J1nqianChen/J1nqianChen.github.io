@@ -58,19 +58,6 @@ published:
     venue: Expert Systems with Applications
     year: 2026
     url: https://doi.org/10.1016/j.eswa.2026.133003
-  - id: progressive-consensus
-    title: Partially View-Aligned Multi-View Clustering Based on Progressive Global Consensus Learning
-    authors:
-      - Xiaojin Ren
-      - Jihua Zhu
-      - Wenbiao Yan
-      - Jinqian Chen
-      - Haozhe Cheng
-      - Qinghai Zheng
-    short: TCSVT
-    venue: IEEE Transactions on Circuits and Systems for Video Technology
-    year: 2026
-    url: https://doi.org/10.1109/TCSVT.2026.3720618
   - id: point-rmae
     title: 'Point-RMAE: Reinforcement Masked Autoencoder for 3D Representation Learning'
     authors:
@@ -86,18 +73,6 @@ published:
     venue: IEEE Transactions on Image Processing
     year: 2026
     url: https://doi.org/10.1109/TIP.2026.3694193
-  - id: pmkc
-    title: Pseudo Multi-view K-means Clustering
-    authors:
-      - Jinqian Chen
-      - Jihua Zhu
-      - Haoyu Tang
-      - Qinghai Zheng
-    short: AAAI
-    venue: AAAI Conference on Artificial Intelligence
-    year: 2026
-    url: https://doi.org/10.1609/aaai.v40i24.39101
-    pdf: https://ojs.aaai.org/index.php/AAAI/article/download/39101/43063
   - id: afbs
     title: 'AFBS: buffer gradient selection in semi-asynchronous federated learning'
     authors:
@@ -111,72 +86,6 @@ published:
     venue: Knowledge-Based Systems
     year: 2025
     url: https://doi.org/10.1016/j.knosys.2025.114632
-  - id: graph-variational
-    title: Graph Variational Multi-View Clustering
-    authors:
-      - Wenbiao Yan
-      - Jihua Zhu
-      - Jinqian Chen
-      - Haozhe Cheng
-      - Qinghai Zheng
-    short: TCSVT
-    venue: IEEE Transactions on Circuits and Systems for Video Technology
-    year: 2025
-    url: https://doi.org/10.1109/TCSVT.2025.3571012
-  - id: neighbor-completion
-    title: Neighbor-Based Completion for Addressing Incomplete Multiview Clustering
-    authors:
-      - Wenbiao Yan
-      - Jihua Zhu
-      - Yiyang Zhou
-      - Jinqian Chen
-      - Haozhe Cheng
-      - Kun Yue
-      - Qinghai Zheng
-    short: TNNLS
-    venue: IEEE Transactions on Neural Networks and Learning Systems
-    year: 2025
-    url: https://doi.org/10.1109/TNNLS.2025.3540437
-  - id: label-distribution
-    title: Label distribution-driven multi-view representation learning
-    authors:
-      - Wenbiao Yan
-      - Minghong Wu
-      - Yiyang Zhou
-      - Qinghai Zheng
-      - Jinqian Chen
-      - Haozhe Cheng
-      - Jihua Zhu
-    short: Inf. Fusion
-    venue: Information Fusion
-    year: 2025
-    url: https://doi.org/10.1016/j.inffus.2024.102727
-  - id: multi-view-realignment
-    title: Partially multi-view clustering via re-alignment
-    authors:
-      - Wenbiao Yan
-      - Jihua Zhu
-      - Jinqian Chen
-      - Haozhe Cheng
-      - Shunshun Bai
-      - Liang Duan
-      - Qinghai Zheng
-    short: Neural Netw.
-    venue: Neural Networks
-    year: 2025
-    url: https://doi.org/10.1016/j.neunet.2024.106884
-  - id: ptm
-    title: 'PTM: Torus Masking for 3D Representation Learning Guided by Robust and Trusted Teachers'
-    authors:
-      - Haozhe Cheng
-      - Jihua Zhu
-      - Naiwen Hu
-      - Jinqian Chen
-      - Wenbiao Yan
-    short: TCSVT
-    venue: IEEE Transactions on Circuits and Systems for Video Technology
-    year: 2024
-    url: https://doi.org/10.1109/TCSVT.2024.3430904
   - id: mfl-akd
     title: 'Breaking Barriers of System Heterogeneity: Straggler-Tolerant Multimodal Federated Learning
       via Knowledge Distillation'
@@ -272,16 +181,7 @@ published:
       the knowledge of the missing and non-dominant classes. Extensive experimental results demonstrate
       that our proposed FedKA achieves fast and stable convergence, significantly improving accuracy
       on popular benchmarks'
-  - id: hierarchical-kmeans
-    title: Hierarchical K-means clustering for registration of multi-view point sets
-    authors:
-      - Rui Guo
-      - Jinqian Chen
-      - Lin Wang
-    short: CAEE
-    venue: Computers & Electrical Engineering
-    year: 2021
-    url: https://doi.org/10.1016/j.compeleceng.2021.107321
+
 preprints:
   - id: same-rank
     title: 'Same Rank, Different Needs: Rethinking LoRA Redistribution in Federated Learning'
