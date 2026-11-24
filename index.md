@@ -28,10 +28,6 @@ Federated learning, uncertainty estimation, multimodal learning, and point cloud
 {% include publications.html entries=group.items %}
 {% endfor %}
 
-## Preprints {#preprints}
-
-{% include publications.html entries=site.data.publications.preprints %}
-
 ## Contact {#contact}
 
 [{{ site.email }}](mailto:{{ site.email }})
