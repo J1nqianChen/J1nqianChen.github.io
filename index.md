@@ -8,12 +8,12 @@ I am a Ph.D. student at Xi'an Jiaotong University, advised by [Prof. Jihua Zhu](
 
 ## Research Interests
 
-Federated learning, edge intelligence, foundation models, clustering
+Federated learning, edge intelligence, foundation models, clustering, uncertainty estimation
 
 ## News {#news}
 
-- **Sept. 2026** — [Calibrating Federated Models for Reliable Mobile Edge Deployment](#mobile-edge) was accepted by *IEEE Transactions on Mobile Computing* (first author).
-- **Sept. 2026** — [FedReCall](#fedrecall) was accepted to NeurIPS 2026 (co-first author).
+- **Oct. 2026** — [FedReCall](#fedrecall) was accepted to NeurIPS 2026 (co-first author).
+- **Aug. 2026** — [Calibrating Federated Models for Reliable Mobile Edge Deployment](#mobile-edge) was accepted by *IEEE Transactions on Mobile Computing* (first author).
 - **Mar. 2026** — [Pseudo Multi-view K-means Clustering](https://doi.org/10.1609/aaai.v40i24.39101) appeared in the AAAI 2026 proceedings.
 - **May 16, 2024** — [MFL-AKD](#mfl-akd) was accepted to IJCAI 2024.
 - **Dec. 19, 2023** — [Watch Your Head](#aph) was accepted to AAAI 2024.
