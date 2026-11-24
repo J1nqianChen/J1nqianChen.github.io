@@ -8,7 +8,7 @@ I am a Ph.D. student at Xi'an Jiaotong University, advised by [Prof. Jihua Zhu](
 
 ## Research Interests
 
-Federated learning, uncertainty estimation, multimodal learning, and point cloud processing.
+Federated learning, edge intelligence, foundation models, clustering
 
 ## News {#news}
 
