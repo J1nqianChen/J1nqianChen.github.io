@@ -12,7 +12,7 @@ orcid: https://orcid.org/0000-0001-6295-7850
 github_link: https://github.com/J1nqianChen
 
 avatar: /assets/img/jinqian-chen.jpg
-favicon: /assets/img/site-icon.png
+favicon: /favicon.ico
 
 plugins:
   - jekyll-redirect-from
